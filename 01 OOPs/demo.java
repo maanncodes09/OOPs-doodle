@@ -23,12 +23,12 @@ public class demo{
 }
 
 class Student{
-    String name;
+    String name;  // information/data/characterstics
     int age;
     int rollno;
     String college;
 
-    void markAttendance(){
+    void markAttendance(){ //behaviours
         System.out.println("Attendance marke by"+ name);
     }
 
